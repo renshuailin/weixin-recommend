@@ -1,0 +1,44 @@
+<wxs src="../../wxs/publicJs.wxs" module="pubJs" />
+<searchView onSearch="{{false}}"  bindmyIpt="onMyIpt" 
+isIptVlu="{{iptKey}}"/>
+
+
+
+
+<view class="histroyOut" wx:if="{{!secArr && hisArr}}">
+  <view class="histroyOutTit">
+    <view>历史记录</view>
+    <view bindtap="onRemoveHis">清除</view>
+  </view>
+  
+  <navigator url="/pages/shows/shows?id={{item.id}}" class="histroyItem" wx:for="{{hisArr}}" wx:key="{{item.id}}">
+  {{pubJs.getStr(item.title,20)}}</navigator>
+
+
+</view>
+
+
+
+<view class="secOut">
+
+  <block wx:for="{{secArr}}" wx:key="{{item.id}}">
+    <view class="secOutItem" bindtap="onTapItem" 
+    data-id="{{item.id}}" data-title="{{item.title}}">
+        <view class="pic"><image src="{{item.picurl}}"></image></view>
+        <view class="txt">
+          <view class="txtTit">{{pubJs.getStr(item.title,15)}}</view>
+          <view class="txtDes">{{item.rating}} / {{item.hits}}人看过</view>
+        </view>    
+    </view>
+  </block>
+
+
+
+
+
+ 
+
+</view>
+
+
+

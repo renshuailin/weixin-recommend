@@ -1,0 +1,4 @@
+<view class="searchOut">
+   <navigator url="/pages/search/search" wx:if="{{onSearch}}"  class="item searchBox"></navigator>
+   <input focus wx:else class="item searchIpt" bindinput="onBindIpt" value="{{isIptVlu}}"></input>
+</view>

@@ -1,0 +1,30 @@
+.showContent{ padding:60rpx 20rpx;}
+.showTitle{ font-size:46rpx; line-height: 1.4em; padding-bottom:25rpx;text-align: justify}
+
+
+
+.showInfo{display: flex; justify-content: space-between}
+.showLeft{width:450rpx;}
+.showScore{ display: flex; font-size:30rpx; color:#666}
+.showScore .look{ padding-left:20rpx;}
+.showDes{ padding-top:35rpx; font-size:28rpx; color:#666; line-height: 1.4em; text-align: justify}
+
+.showRit{ width:220rpx;}
+.showRit image{ width:100%;}
+
+
+.showTap{ padding-top:60rpx;}
+.showTapTit{ font-size:32rpx; color:#111; padding-bottom:20rpx;}
+.showTapBtn{ display: flex; flex-wrap: wrap;}
+.showTapBtn .item{ padding:10rpx 40rpx; background:#efefef; display: inline-block; font-size:26rpx; border-radius: 100rpx;margin-right: 20rpx; margin-bottom:10rpx; color:#333;}
+.showMain{ padding-top:50rpx;}
+
+.onTapZan{ width:180rpx; height: 180rpx; background: #ccc; border-radius: 50%; margin-top:50rpx; display: flex; justify-content: center; align-items: center}
+.onTapZan.active{ background: #31c27c;}
+
+.onTapZan image{ width:70rpx; height: 70rpx;}
+
+
+
+
+

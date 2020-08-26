@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "searchView":"/components/searchView/searchView",
+    "outView":"/components/outView/outView"
+  }
+}

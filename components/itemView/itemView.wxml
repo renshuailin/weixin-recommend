@@ -1,0 +1,10 @@
+<wxs src="../../wxs/publicJs.wxs" module="pubJs"/>
+
+<navigator url="/pages/shows/shows?id={{itemObj.id}}" class="itemBox" style="width:{{itemWth}}rpx;margin-right:{{itemMgn}}rpx">
+      <view class="pic">
+          <image src="{{itemObj.picurl}}" mode="widthFix"></image>
+      </view>
+      <view class="title" style="font-size:{{itemFontSize}}rpx">
+      {{pubJs.getStr(itemObj.title,8)}}</view>
+      <scoreView  rating="{{itemObj.rating}}"/>
+</navigator>

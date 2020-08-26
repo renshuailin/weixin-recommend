@@ -1,0 +1,47 @@
+<wxs src="../../wxs/publicJs.wxs" module="public" />
+<import src="../../wxParse/wxParse.wxml" />
+<view class="showContent">
+
+  <view class="showTitle">{{itemObj.title}}</view>
+
+  <view class="showInfo">
+    <view class="showLeft">
+        <view class="showScore">
+            <scoreView rating="{{itemObj.rating}}" starSize="30" starFontSize="30"/>            
+            <view class="look">{{itemObj.hits}}人看过</view>
+        </view>
+
+        <view class="showDes">
+            {{public.getStr(itemObj.description,66)}}
+        </view>
+    </view>
+    <view class="showRit">
+        <image src="{{itemObj.picurl}}" mode="widthFix"></image>
+    </view>
+  </view>
+
+  <view class="showTap">
+    <view class="showTapTit">相关标签</view>
+    <view class="showTapBtn">
+
+
+      <navigator url="/pages/search/search?key={{item}}" class="item" wx:for="{{itemObj.tapArr}}" wx:key="{{index}}" 
+      wx:if="{{item}}">{{item}}</navigator>
+      
+    </view>
+  </view>
+
+
+
+  <view class="showMain">
+  <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+  </view>
+
+  <button bindtap="onTapZan" 
+  class="onTapZan {{onShow?'active':''}}">
+    <image src="https://ku.qingnian8.com/images/dz-icon.png"></image>
+  
+  </button>
+
+
+</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "scoreView":"/components/scoreView/scoreView"
+  }
+}

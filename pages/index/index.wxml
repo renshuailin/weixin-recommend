@@ -1,0 +1,27 @@
+<searchView onSearch="{{true}}" />
+<view class="banner">
+  <view class="bg">
+    <image src="{{bgPicUrl ? bgPicUrl : bannerArr[0].picurl}}"></image>
+  </view>
+  
+  <swiper circular autoplay indicator-dots indicator-color="rgba(255,255,255,0.3)" indicator-active-color="rgba(255,255,255,1)" bindchange="barChange">
+    
+    <swiper-item item-id="{{item.picurl}}" wx:for="{{bannerArr}}" wx:key="{{item.id}}">
+      <navigator>
+      <image src="{{item.picurl}}"></image>
+      </navigator>
+    </swiper-item>
+    
+  </swiper>
+</view>
+
+<outView outViewTit="灵感推荐" outViewUrl="/pages/lists/lists?cid=14" outViewArr="{{lingganArr}}" />
+
+<outView outViewTit="电商酷站" outViewUrl="/pages/lists/lists?cid=5" outViewArr="{{dianshangArr}}"/>
+
+
+<outView outViewTit="酷炫网站" outViewUrl="/pages/lists/lists?cid=8" outViewArr="{{kuxuanArr}}"/>
+
+<outView outViewTit="实用企业站" outViewUrl="/pages/lists/lists?cid=4" outViewArr="{{shizhanArr}}"/>
+
+<view style="height:100rpx;"></view>

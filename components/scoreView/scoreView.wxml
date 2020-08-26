@@ -1,0 +1,6 @@
+<view class="score">       
+    <image src="/images/rate1.png" wx:for="{{rate1-0}}" wx:key="*this" style="width:{{starSize}}rpx; height:{{starSize}}rpx"></image>
+    <image src="/images/rate2.png" wx:for="{{rate2-0}}" wx:key="*this" style="width:{{starSize}}rpx; height:{{starSize}}rpx"></image>
+    <image src="/images/rate3.png" wx:for="{{rate3-0}}" wx:key="*this" style="width:{{starSize}}rpx; height:{{starSize}}rpx"></image>
+    <text style="font-size:{{starFontSize}}rpx;">{{rateTxt}}</text>
+</view>

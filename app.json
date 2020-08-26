@@ -1,0 +1,18 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/search/search",
+    "pages/shows/shows",
+    "pages/lists/lists",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#31c27c",
+    "navigationBarTitleText": "青年帮酷站推荐",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,7 @@
+.banner{ width:100%; height: 450rpx; position: relative; overflow: hidden;}
+.banner .bg{ width:100%; height: 450rpx; background:#fff; overflow: hidden; border-radius: 180rpx; 
+transform: translate(0,-80rpx) scale(1.2)}
+.banner .bg image{ width:120%; height: 120%;filter: blur(20px); margin-left: -10%; margin-top: -10%; opacity: 0.5}
+.banner swiper{ position: absolute; top:40rpx; left: 0; width:100%; height: 400rpx;}
+.banner swiper navigator{ width: 88%; height: 400rpx; margin:0 auto; overflow: hidden; }
+.banner swiper navigator image{ width:100%; height: 500rpx;}

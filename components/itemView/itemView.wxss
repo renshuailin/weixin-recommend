@@ -1,0 +1,5 @@
+.itemBox{ display: inline-block; width:310rpx;margin-right: 15rpx; text-align: center; border:1rpx solid #f4f4f4; padding-bottom:15rpx;}
+.itemBox .pic image{ width:100%;}
+.itemBox .title{ font-size:30rpx; color:#333; padding:15rpx 0 5rpx;}
+
+

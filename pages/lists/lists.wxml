@@ -1,0 +1,6 @@
+<view class="listMain">
+  <block wx:for="{{dataArr}}" wx:key="{{item.id}}">
+    <itemView itemObj="{{item}}" itemWth="220" itemMgn="0" itemFontSize="23"/>
+  </block>
+
+</view>

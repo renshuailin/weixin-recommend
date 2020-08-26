@@ -1,0 +1,4 @@
+/* components/scoreView/scoreView.wxss */
+.score{ font-size: 22rpx; color:#666}
+.score image{ width:20rpx; height: 20rpx;margin:0 3rpx;}
+.score text{margin-left: 10rpx;}

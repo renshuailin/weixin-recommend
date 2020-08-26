@@ -1,0 +1,4 @@
+/* pages/lists/lists.wxss */
+.listMain{ padding:50rpx 30rpx; display: flex; flex-wrap: wrap; justify-content: space-between}
+.listMain::after{content: ""; flex:auto}
+.listMain itemView{ margin-bottom:20rpx;}

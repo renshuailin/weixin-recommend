@@ -1,0 +1,19 @@
+<view class="outView">
+  <view class="outViewTitle">
+      <view class="text">{{outViewTit}}</view>
+      <navigator url="{{outViewUrl}}" class="more">更多 ></navigator>
+  </view>
+
+  <scroll-view class="outViewMain" scroll-x>
+
+    <block  wx:for="{{outViewArr}}" wx:key="{{item.id}}">
+        
+        <itemView itemObj="{{item}}" />
+
+    </block>
+
+    
+
+
+  </scroll-view>
+</view>

@@ -1,0 +1,12 @@
+/* pages/search/search.wxss */
+.secOut{ padding:20rpx;}
+.secOutItem{ display: flex; padding:12rpx 0;  border-bottom:1rpx solid #f4f4f4;}
+
+.secOutItem .pic image{ width:70rpx; height: 80rpx; display: block;}
+.secOutItem .txt{ padding-left:20rpx; display: flex; flex-direction: column; justify-content: space-between;}
+.secOutItem .txtTit{ font-size: 30rpx; color:#333;}
+.secOutItem .txtDes{ font-size:22rpx; color:#888}
+
+
+.histroyOutTit{ background:#f4f4f4; padding:20rpx; display: flex; justify-content: space-between; color:#666; font-size: 30rpx;}
+.histroyItem{ padding:20rpx 0rpx; font-size: 30rpx; color:#222; border-bottom:1rpx solid #f4f4f4; width:670rpx; box-sizing:  border-box; margin:0 auto;}

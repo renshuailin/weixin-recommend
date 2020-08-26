@@ -1,0 +1,4 @@
+.outView{ padding:0 30rpx;margin-top:60rpx;}
+.outViewTitle{ display: flex; justify-content: space-between; font-size: 40rpx;padding-bottom:20rpx;}
+.outViewTitle .more{ color:#31c27c}
+.outViewMain{ white-space: nowrap}
